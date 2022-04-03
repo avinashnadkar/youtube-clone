@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Navbar from '../Components/Navbar/Navbar'
+import Sidebar from '../Components/Sidebar/Sidebar'
 
 export default function Home() {
   return (
@@ -13,6 +14,16 @@ export default function Home() {
       </Head>
 
       <Navbar/>
+
+      <main className={styles.mainContainer}>
+
+        <Sidebar/>
+
+        <div className={styles.videosContainer}>
+           
+        </div>
+
+      </main>
        
     </div>
   )
