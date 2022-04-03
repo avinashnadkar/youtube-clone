@@ -1,0 +1,9 @@
+.mainContainer{
+  display: flex;
+}
+.videosContainer{
+  width: 85%;
+  margin-left: 15%;
+  padding: 5px;
+  background-color: rgba(248, 248, 248, 0.521);
+}
