@@ -1,0 +1,59 @@
+.container{
+    height: 300px;
+    width: 260px;
+}
+
+.cardImg{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+.cardContent{
+    display: flex;
+    padding: 5px 0;
+    font-family: sans-serif;
+}
+
+.profilePic{
+    background-color: rgb(223, 223, 223);
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin: 3px 0;
+    margin-left: 3px;
+}
+
+.videoInfo{
+    width: 75%;
+    margin-left: 15px;
+}
+
+.vidoTitle{
+    padding: 0;
+    margin: 3px 0;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight:normal;
+}
+
+.channelsName{
+    padding: 0;
+    margin: 10px 0 5px 0;
+    font-size: 12px;
+    color: grey;
+}
+
+.viewInfo{
+    padding: 0;
+    margin: 3px 0;
+    font-size: 12px;
+    color: grey;
+}
+
+.optBtn{
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+}

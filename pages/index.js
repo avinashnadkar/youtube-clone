@@ -2,8 +2,11 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Navbar from '../Components/Navbar/Navbar'
 import Sidebar from '../Components/Sidebar/Sidebar'
+import VideoCard from '../Components/Cards/VideoCard'
 
 export default function Home() {
+
+  let demoData = {thumbnail:"/Assets/Img/youtube-logo.png",profilePic:"/Assets/Img/YouTube-Logo.png" ,title:"How To create and upload a video on youtube",channelName:"youtuberChannel",totalViews:132,uploadedTime:"1 day ago"}
   return (
     <div className={styles.container}>
       <Head>
@@ -20,7 +23,16 @@ export default function Home() {
         <Sidebar/>
 
         <div className={styles.videosContainer}>
-           
+
+           <VideoCard {...demoData}/>
+           <VideoCard {...demoData}/>
+           <VideoCard {...demoData}/>
+           <VideoCard {...demoData}/>
+           <VideoCard {...demoData}/>
+           <VideoCard {...demoData}/>
+           <VideoCard {...demoData}/>
+           <VideoCard {...demoData}/>
+
         </div>
 
       </main>
