@@ -57,3 +57,19 @@
     margin: 0;
     height: fit-content;
 }
+
+/* -----------------------------Sidebar card container------------------------------------- */
+
+.sidebarCardContainer{
+    /* height: 300px; */
+    width: 97%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.sidebarCardImg{
+    width: 42%;
+    height: 110px;
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
